@@ -7,3 +7,5 @@ import registerServiceWorker from './registerServiceWorker';
 /* eslint-enable no-unused-vars */
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
+
+console.log(1111);

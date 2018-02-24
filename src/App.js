@@ -1,11 +1,13 @@
 import React from 'react';
+import { Button } from 'antd-mobile';
 
 class App extends React.Component {
 	render () {
 		return (
-			<h1 className="App">
+			<div className="App">
 				my app
-			</h1>
+				<Button type="primary">hhh</Button>
+			</div>
 		);
 	}
 }
